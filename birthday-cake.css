@@ -188,7 +188,7 @@ svg#cake {
 }
 @media (max-width: 600px) {
     svg#cake { width: 90vw; height: auto; }
-    .velas { top: 18vw; }
+    .velas { top: 8vw; }
     .text h1 { font-size: 1.4em; }
     .text p { font-size: 1em; }
     .top-message { font-size: 1em; padding: 10px 10px 7px 10px; }
