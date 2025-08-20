@@ -187,12 +187,13 @@ svg#cake {
     pointer-events: auto;
 }
 @media (max-width: 600px) {
-    svg#cake { width: 90vw; height: auto; }
-    .velas { top: 8vw; }
-    .text h1 { font-size: 1.4em; }
-    .text p { font-size: 1em; }
-    .top-message { font-size: 1em; padding: 10px 10px 7px 10px; }
+    svg#cake { width: 90vw; height: auto; }
+    .velas { top: 8vw; }
+    .text h1 { font-size: 1.4em; }
+    .text p { font-size: 1em; }
+    .top-message { font-size: 1em; padding: 10px 10px 7px 10px; }
 }
+
 
 .cake-container {
     position: relative;
@@ -203,5 +204,5 @@ svg#cake {
 }
 
 .top-message.mostrar + .velas {
-    top: 45%; /* Prueba con este valor y ajústalo */
+    top: 45%;
 }
