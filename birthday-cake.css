@@ -38,7 +38,7 @@ svg#cake {
 .velas {
     position: absolute;
     left: 50%;
-    top: 448px;
+    bottom: 50%; /* Prueba con este valor y ajústalo */
     transform: translateX(-50%);
     z-index: 5;
     height: 78px;
@@ -158,7 +158,7 @@ svg#cake {
 .top-message {
     position: absolute;
     left: 50%;
-    top: 220px;
+    top: 10%;
     transform: translateX(-50%) scale(0.7) translateY(-28px);
     min-width: 280px;
     max-width: 95vw;
@@ -192,4 +192,16 @@ svg#cake {
     .text h1 { font-size: 1.4em; }
     .text p { font-size: 1em; }
     .top-message { font-size: 1em; padding: 10px 10px 7px 10px; }
+}
+
+.cake-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.top-message.mostrar + .velas {
+    top: 45%; /* Prueba con este valor y ajústalo */
 }
