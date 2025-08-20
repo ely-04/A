@@ -38,7 +38,7 @@ svg#cake {
 .velas {
     position: absolute;
     left: 50%;
-    bottom: 50%; /* Prueba con este valor y ajústalo */
+    bottom: 45%; 
     transform: translateX(-50%);
     z-index: 5;
     height: 78px;
